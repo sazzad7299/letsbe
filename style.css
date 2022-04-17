@@ -1,0 +1,114 @@
+
+/*
+Theme Name: Let's Be
+Theme URI: https://wordpress.org/themes/twentytwentytwo/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Built on a solidly designed foundation, Let's Be embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.
+Requires at least: 5.9
+Tested up to: 5.9
+Requires PHP: 5.6
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: let'sbe
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
+
+Let's Be WordPress Theme, (C) 2021 WordPress.org
+Let's Be is distributed under the terms of the GNU GPL.
+*/
+
+/*
+ * Font smoothing.
+ * This is a niche setting that will not be available via Global Styles.
+ * https://github.com/WordPress/gutenberg/issues/35934
+ */
+
+ /* latest Post widgets styleing */
+ .sidebar li{
+    list-style: none;
+ }
+ .wp-block-group__inner-container ul{
+     list-style: none;
+ }
+ .wp-block-latest-posts__list{
+     list-style-type: none!important;
+ }
+ 
+.sidebar .widget a {
+    color: #494e53;
+  }
+  .sidebar .widget a:hover {
+    color: #EF2D56;
+  }
+  .sidebar .widget ul > li {
+    margin-bottom: 0;
+  }
+  .sidebar .widget ul > li:last-child > a {
+    border-bottom: 0;
+  }
+  .sidebar .widget ul > li > a {
+    padding: 12px 0;
+    border-bottom: 1px solid #e7e7e7;
+    letter-spacing: 1px;
+  }
+  .sidebar .widget ul > li > a > span {
+    display: block;
+    color: #79818a;
+    margin-top: 5px;
+  }
+  .sidebar .widget ul > li > a:hover {
+    background-color: transparent;
+  }
+  .sidebar .widget ul > li > a:focus {
+    background-color: transparent;
+  }
+
+  .wp-block-tag-cloud a {
+    display: block;
+    float: left;
+    padding: 10px 15px;
+    border: 1px solid #191b1d;
+    margin: 0 10px 10px 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    font-weight: 500;
+}
+.wp-block-tag-cloud  a:hover {
+    background-color: #EF2D56;
+    border-color: #EF2D56;
+    color: #fff!important;
+  }
+  input#wp-block-search__input-2 {
+    border: none;
+    border: 1px solid #ccc;
+    padding: 16px 10px;
+    width: 100%;
+}
+input#wp-block-search__input-2:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #EF2D56;
+  }
+
+  /* Footer Sidebar Style */
+  #footer-widgets .widget ul li a {
+    display: inline-block;
+    color: #494e53;
+}
+#footer-widgets .widget ul {
+  margin-bottom: 0;
+  list-style: none!important;
+  padding-left: 0px!important;
+}
+/* Subscribe form */
+.footer-newsletter input.form-control{
+  width: 60%!important;
+  border: 1px solid red;
+}
+.footer-newsletter input.subscribeButton{
+  margin-top: -15px;
+}
