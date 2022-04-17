@@ -7,7 +7,7 @@
             <div class="container">
               <div class="title center">
                 <h1 class="upper">This is our blog<span class="red-dot"></span></h1>
-                <h4>We have a few tips for you.</h4>
+                <h4>Git Comit</h4>
                 <hr>
               </div>
             </div>
